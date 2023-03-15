@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F":" {print "user: " $1 "Home Dir: " $6} /etc/passwd  
+cut -d":" -f1 /etc/passwd | sort | cut -d":" -f6 /etc/passwd | sort
