@@ -1,0 +1,2 @@
+#!/bin/bash
+awk {print "user: " $1 "Home Dir: " $6} /etc/passwd  
