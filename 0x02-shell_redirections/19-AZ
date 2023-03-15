@@ -1,2 +1,2 @@
 #!/bin/bash
-sed 'y/A/Z/g; y/c/e/g' input
+tr A [Z] | tr c [e]
