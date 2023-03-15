@@ -1,2 +1,2 @@
 #!/bin/bash
-sed 'y/A/Z/g; y/c/e/g'
+sed 'y/A/Z/g; y/c/e/g' input
