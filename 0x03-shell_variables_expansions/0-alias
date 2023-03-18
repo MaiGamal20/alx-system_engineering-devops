@@ -1,2 +1,2 @@
 #!/bin/bash
-alias lsrm = "ls | rm-i"
+alias lsrm="ls | rm-i"
